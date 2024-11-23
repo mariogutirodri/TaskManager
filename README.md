@@ -31,7 +31,11 @@ __*Coming soon...*__
 In Visual Studio Code 2, press **⇧ (Shift) + ⌘ (Command) + P** and select **"Create Java Project..."**.
 After this, select **"No build tools"** and establish a *path* and *title* for the new project.
 
-**2. Download JavaFX**
+**2. Download necessary folders**
+
+Once the project is created, download the **"lib"**, **"src"** and **"bin"** folders from this repository and paste them into your own project folder. 
+
+**3. Download JavaFX**
 
 Navigate to the [JavaFX download page](https://gluonhq.com/products/javafx/); Insert your *architecture* and *OS* and download the __*.SDK*__ file.
 
@@ -43,7 +47,7 @@ Insert the folder in the **same path where your project is located**. Once inser
 
 [ ! ] __*Note:*__ Remember the current path for the **javafx-sdk-23.0.1** folder, as you will need it for the next step.
 
-**3. Install JavaFX libraries** 
+**4. Install JavaFX libraries** 
 
 Once the **javafx-sdk-23.0.1** folder is visible on your code editor, go inside the code editor and search for the __*Explorer*__ window, which is normally located in the left side of your screen. 
 
@@ -61,7 +65,7 @@ Navigate to the path where you located the **javafx-sdk-23.0.1** folder and open
 
 Once selected, click on **"Select Jar Libraries"**.
 
-**4. Add Configurations**
+**5. Add Configurations**
 
 Once the libraries are in place and installed, go to the upper menu bar in your macOS and click on __*Run > Add Configuration*__.
 
@@ -131,5 +135,6 @@ Enjoy!
 ## Known Issues
 
 - Once you sort the tasks, you cannot unsort the tasks
+- If there is a task with out a title, the sort functionality does not work
 
 ## Future Improvements
