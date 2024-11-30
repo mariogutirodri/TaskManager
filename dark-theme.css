@@ -1,0 +1,33 @@
+.root { 
+    -fx-accent: #1e74c6;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #373e43;
+    -fx-control-inner-background: derive(-fx-base, 35%);
+    -fx-control-inner-background-alt: -fx-control-inner-background ;
+}
+
+.label{
+    -fx-text-fill: rgb(242, 241, 241);
+}
+
+.text-area {
+    -fx-prompt-text-fill: rgb(186, 186, 186);
+}
+
+.text-field {
+    -fx-prompt-text-fill: rgb(186, 186, 186);
+}
+
+.button{
+    -fx-focus-traversable: false;
+}
+
+.button:hover{
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-base: -fx-accent ;
+} 
+
+
