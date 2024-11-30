@@ -5,6 +5,9 @@
   - [Windows](#windows)
   - [MacOS](#macos)
 - [Features Implemented](#features-implemented)
+  - [Main Window](#main-window)
+  - [Data Management](#data-management)
+  - [Additional Features](#additional-features)
 - [Known Issues](#known-issues)
 - [Future Improvements](#future-improvements)
 
@@ -14,15 +17,13 @@ The Task Manager is a productivity and organization app created in Java. It enab
 
 ## Set up Instructions
 
-Below you can find the instructions to set up your enviroment for the Task Manager.
-
 [ ! ] __*Note:*__ Some instructions may be specific to Visual Studio Code 2 code editor.
 
-## Windows *⊞*
+### Windows *⊞*
 
 __*Coming soon...*__
 
-## MacOS 
+### MacOS 
 
 [ ! ] __*Note:*__ The following instructions were written based on the **MacOS Sequoia 15.0.1**. The following steps could be susceptible to errors due to future upgrades of the MacOS operating system.
 
@@ -130,11 +131,37 @@ Enjoy!
 
 ## Features Implemented
 
+### Main Window
 
+There are **4 main functions** implemented in the Task Manager main window:
+
+ **1. Input fields for task details:** The task manager offers the user the option to implement specific details for each task, such as
+ *title*, *description*, *due date* & *priority*.
+
+ **2. Add/Edit/Delete options:** The user may *add*, *edit the already existing ones*, or *delete* any task; Any changes will be displayed on the main window once the changes have been saved. 
+
+ **3. List view of all tasks:** Real-time list view of all existing tasks, accessible from the main window of the Task Manager and being displayed until the process of the program is terminated.
+
+ **4. Sort Functionality:** The user may sort based on the priority given to each individual task, being displayed in a clear format on the main display.
+
+### Data Management
+
+**1. ArrayList Data Management:** The task manager uses an ArrayList for easy and clear implementation of all tasks, making possible features such as *filtering*, *sorting* or *category creation*.
+
+### Additional Features
+
+**1. Task Categories Creation:** The user may create custom categories for selected tasks, in order to improve organization and enhance efficiency.
+
+**2. Task Filtering:** Tasks may be filtered by priority, based on the input of the user; Only the tasks that meet the required priority will be shown in the display. The user may reset the settings and filter by a different priority, or choose to display all existing task again.
 
 ## Known Issues
 
-- Once you sort the tasks, you cannot unsort the tasks
-- If there is a task with out a title, the sort functionality does not work
+- Once you sort the tasks, you cannot unsort the tasks.
+- If there is a task with out a title, the sort functionality does not work.
 
 ## Future Improvements
+
+- Implement file saving / loading functionality for already existing ArrayList in a .txt format.
+- Improve dark mode - Implement different types of dark mode.
+- Debugging of sort function - Unsort tasks whenever the tasks are already sorted (sort them by date).
+- Debbuging of task functionality - Fix and debug error task implementation without all requirements (title, description, priority, due date, category).
